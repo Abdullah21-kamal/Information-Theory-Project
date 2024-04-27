@@ -12,7 +12,7 @@ Phase 2: Channel Coding with Convolutional Coding
 
 ## Phase 2 focused on channel coding using rate 1/3 convolutional coding to mitigate errors introduced by a noisy channel. The key tasks included designing a convolutional encoder, adding AWGN noise to transmitted data, implementing a hard decision Viterbi decoder, and evaluating the Bit Error Rate (BER) performance.
 
-1- Convolutional Encoder Design: We designed a rate 1/3 convolutional encoder with a constraint length of 𝐾 = 3, selecting appropriate generator polynomials.
-2- Encoder and Decoder Implementation: Software code was developed to implement the convolutional encoder and hard decision Viterbi decoder without using built-in MATLAB functions.
-3- Performance Evaluation: BER versus SNR curves were plotted to compare the performance of the communication system with and without convolutional coding. Integration of Phase 2 with Phase 1 enabled an end-to-end communication system, allowing for seamless data transmission and error correction.
-4- Error Analysis: The received text files were compared with transmitted files at various SNR values, highlighting errors introduced during transmission and demonstrating the effectiveness of channel coding in error correction.
+* Convolutional Encoder Design: We designed a rate 1/3 convolutional encoder with a constraint length of 𝐾 = 3, selecting appropriate generator polynomials.
+* Encoder and Decoder Implementation: Software code was developed to implement the convolutional encoder and hard decision Viterbi decoder without using built-in MATLAB functions.
+* Performance Evaluation: BER versus SNR curves were plotted to compare the performance of the communication system with and without convolutional coding. Integration of Phase 2 with Phase 1 enabled an end-to-end communication system, allowing for seamless data transmission and error correction.
+* Error Analysis: The received text files were compared with transmitted files at various SNR values, highlighting errors introduced during transmission and demonstrating the effectiveness of channel coding in error correction.
